@@ -66,7 +66,7 @@ int main()
     // write headers
     csv_file << "n,time\n";
 
-    for (int n = 5000; n <= 5000*20; n += 5000) {
+    for (int n = 500; n <= 500*10; n += 500) {
         std::vector<int> v =  generate_vector(n);
         // get time before and after and subtract them
         auto time1 = std::chrono::high_resolution_clock::now();
